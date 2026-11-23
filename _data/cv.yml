@@ -94,6 +94,27 @@ cv:
         publisher: IEEE Symposium on Low-Power and High-Speed Chips (COOL Chips)
         releaseDate: 2026-04
 
+      - title: "FlashMoE: Reducing SSD I/O Bottlenecks via ML-Based Cache Replacement for Mixture-of-Experts Inference on Edge Devices"
+        authors:
+          - Byeongju Kim
+          - Jungwan Lee
+          - Donghyeon Han
+          - Hoi-Jun Yoo
+          - Sangyeob Kim
+        publisher: arXiv preprint arXiv:2601.17063
+        releaseDate: 2026-01
+        url: https://arxiv.org/abs/2601.17063
+
+      - title: "A 4.69 mW LLM Processor with Binary/Ternary Weights for Billion-Parameter Llama Model"
+        authors:
+          - Sangyeob Kim
+          - Jungwan Lee
+          - Byeongju Kim
+          - Hoi-Jun Yoo
+        publisher: IEEE Hot Chips 37 Symposium (HCS)
+        releaseDate: 2025-08
+        url: https://doi.org/10.1109/HCS66204.2025.11154420
+
       - title: "Slim-Llama: A 4.69mW Large-Language-Model Processor with Binary/Ternary Weights for Billion-Parameter Llama Model"
         authors:
           - Sangyeob Kim

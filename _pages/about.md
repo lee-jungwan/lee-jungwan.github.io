@@ -25,6 +25,14 @@ latest_posts:
   enabled: false
 ---
 
+<style>
+  /* Align the photo's top edge with the cap height of the first paragraph line */
+  .profile {
+    margin-top: 0.5rem;
+    margin-top: calc((1lh - 1cap) / 2);
+  }
+</style>
+
 I am an M.S. student in Electrical Engineering at [KAIST](https://www.kaist.ac.kr/), advised by [Prof. Hoi-Jun Yoo](https://ssl.kaist.ac.kr/) in the Semiconductor System Lab (SSL). I received my B.S. in Electrical Engineering with a minor in Computer Science from KAIST (magna cum laude).
 
 My research focuses on **efficient AI inference** across algorithms and hardware, including:

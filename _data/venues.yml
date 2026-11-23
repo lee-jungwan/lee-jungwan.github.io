@@ -14,6 +14,14 @@
   url: https://iscaconf.org/
   color: "#9f0036"
 
+"Hot Chips":
+  url: https://hotchips.org/
+  color: "#b35900"
+
+"arXiv":
+  url: https://arxiv.org/
+  color: "#6b6b6b"
+
 "COOL Chips":
   url: https://www.coolchips.org/
   color: "#009f36"
