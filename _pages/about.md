@@ -26,10 +26,39 @@ latest_posts:
 ---
 
 <style>
-  /* Align the photo's top edge with the cap height of the first paragraph line */
-  .profile {
-    margin-top: 0.5rem;
-    margin-top: calc((1lh - 1cap) / 2);
+  /* On wide screens, place the photo in a right-hand column that starts level with the name. */
+  @media (min-width: 576px) {
+    .post:has(> article > .profile) {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) 30%;
+      grid-template-rows: auto 1fr;
+      column-gap: 1rem;
+    }
+    .post:has(> article > .profile) > .post-header {
+      grid-column: 1;
+      grid-row: 1;
+    }
+    .post:has(> article > .profile) > article {
+      display: contents;
+    }
+    .post > article > * {
+      grid-column: 1 / -1;
+    }
+    .post > article > .clearfix {
+      grid-column: 1;
+      grid-row: 2;
+    }
+    .post > article > .profile {
+      grid-column: 2;
+      grid-row: 1 / span 2;
+      align-self: start;
+      float: none;
+      width: auto;
+      margin-left: 0;
+      /* offset by the name's line-height leading so the photo top meets the top of the letters */
+      margin-top: 0.6rem;
+      margin-top: calc((3rem - 2.5cap) / 2);
+    }
   }
 </style>
 
