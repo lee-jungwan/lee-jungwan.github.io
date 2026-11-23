@@ -9,6 +9,8 @@ cv:
   social_networks:
     - network: GitHub
       username: lee-jungwan
+    - network: LinkedIn
+      username: jungwan-lee
 
   sections:
     Education:
