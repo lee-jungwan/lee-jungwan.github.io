@@ -1,9 +1,19 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
+"ISSCC":
+  url: https://www.isscc.org/
   color: "#00369f"
 
-"PhysRev":
-  url: https://journals.aps.org/
+"JSSC":
+  url: https://sscs.ieee.org/publications/ieee-journal-of-solid-state-circuits/
+  color: "#00369f"
 
-"Vision":
+"A-SSCC":
+  url: https://a-sscc.org/
+  color: "#00629b"
+
+"ISCA":
+  url: https://iscaconf.org/
+  color: "#9f0036"
+
+"COOL Chips":
+  url: https://www.coolchips.org/
   color: "#009f36"
