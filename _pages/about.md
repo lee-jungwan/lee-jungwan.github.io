@@ -6,7 +6,7 @@ subtitle: M.S. Student, <a href='https://ssl.kaist.ac.kr/'>Semiconductor System 
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: jungwan_lee.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>School of Electrical Engineering</p>
