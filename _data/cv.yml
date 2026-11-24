@@ -139,6 +139,11 @@ cv:
         releaseDate: 2025
 
     Awards:
+      - title: Distinguished Design Award
+        date: 2026-11
+        awarder: Student Design Contest, IEEE A-SSCC 2026
+        summary: Awarded for VectorFLASH, a resource-efficient long-context LLM accelerator with dual vector quantization on edge FPGA.
+
       - title: Dean's List
         date: 2020
         awarder: School of Computing, KAIST

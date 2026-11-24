@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-My first-author paper **VectorFLASH**, a long-context LLM accelerator with dual vector quantization on an edge FPGA, was presented at **A-SSCC 2026** in Taichung, Taiwan.
+:trophy: **VectorFLASH** received the **Distinguished Design Award** at the Student Design Contest of **IEEE A-SSCC 2026** in Taichung, Taiwan! I also presented the paper, a long-context LLM accelerator with dual vector quantization on an edge FPGA that reaches up to 8.7 tokens/s with context lengths of up to 128K tokens.

@@ -70,4 +70,4 @@ My research focuses on **efficient AI inference** across algorithms and hardware
 - **LLM/VLM acceleration** on resource-constrained hardware such as edge FPGAs and mobile SoCs
 - **Edge AI systems**, including on-device agentic LLMs for tablet-class devices
 
-Recently, I designed **VectorFLASH**, a long-context LLM accelerator with dual vector quantization on an edge FPGA (A-SSCC 2026). I also co-authored **Slim-Llama** (ISSCC 2025, Hot Chips 2025), a 4.69 mW LLM processor with binary/ternary weights for billion-parameter Llama models.
+Recently, I designed **VectorFLASH**, a long-context LLM accelerator with dual vector quantization on an edge FPGA, which received the **Distinguished Design Award** at the A-SSCC 2026 Student Design Contest. I also co-authored **Slim-Llama** (ISSCC 2025, Hot Chips 2025), a 4.69 mW LLM processor with binary/ternary weights for billion-parameter Llama models.
